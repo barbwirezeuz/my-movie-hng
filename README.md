@@ -12,8 +12,6 @@ Before running this project locally, ensure you have the following dependencies 
 Follow these steps to run the project locally on your machine:
 
 1. **Clone the Repository:**
-
-   ```bash
    git clone https://github.com/barbwirezeuz/my-movie-hng.git
 
 2. Navigate to the Project Directory
