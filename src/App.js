@@ -62,11 +62,11 @@ function App() {
       <div className="App">
         {/* Header */}
         <header className="header">
-          <div className="title">Movie Discovery</div>
+          <div className="title">MovieBox</div>
           <div className="search-bar">
             <input
               type="text"
-              placeholder="Search for a movie..."
+              placeholder="What do you want to watch ?"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />

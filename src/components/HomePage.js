@@ -13,7 +13,7 @@ favoriteIcons.forEach((icon) => {
  function HomePage({ movies }) {
    return (
     <div>
-<h3>Top Ten Movies</h3>
+<h3>Featured Movies</h3>
       <div className="movie-list" data-testid="movie-list">
         {movies.map((movie) => (
           <div className="movie-card" key={movie.id} data-testid="movie-card">
