@@ -1,4 +1,4 @@
-/* src/styles.css */
+
 body {
     margin: 0;
     padding: 0;
@@ -25,7 +25,7 @@ body {
   
   .movie-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column width as needed */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
     gap: 20px;
     justify-content: center;
   }
@@ -63,9 +63,6 @@ body {
     margin: 5px 0;
   }
 
-  /* src/styles.css */
-
-/* Header styles */
 .header {
     display: flex;
     justify-content: space-between;
@@ -103,7 +100,7 @@ body {
     border-radius: 5px;
   }
   
-  /* Main content styles (movie list) */
+  
   .main-content {
     text-align: center;
     max-width: 1200px;
@@ -118,7 +115,7 @@ body {
 
   @media screen and (max-width: 768px) {
     .header {
-      flex-direction: column; /* Stack items vertically */
+      flex-direction: column; 
       text-align: center;
     }
   
@@ -128,6 +125,28 @@ body {
   }
 
   
-  /* ... (movie card styles - from previous answer) */
-  
-  
+ 
+.movie-card .favorite-icon {
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
+  background-color:white; 
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.movie-card .favorite-icon:hover {
+  background-color: blueviolet; 
+}
+
+.movie-card .favorite-icon.clicked {
+  background-color: red; 
+}
+
+.movie-card .favorite-icon i {
+  font-size: 24px; 
+  color: black; 
+}
+
