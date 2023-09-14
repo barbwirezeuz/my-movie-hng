@@ -105,7 +105,9 @@ import { BrowserRouter as Router, Route, Routes, Link, useLocation } from 'react
 import './styles.css';
 import MovieDetailsPage from './components/MovieDetailsPage';
 import HomePage from './components/HomePage';
-import Header from './components/Header'; 
+import Header from './components/Header';
+import Footer from './components/Footer'; 
+
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -178,4 +180,7 @@ function App() {
      </Router>
    );
  }
+
+
+
 export default App;

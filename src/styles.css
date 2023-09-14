@@ -23,7 +23,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));  */
     gap: 20px;
   }
   
@@ -148,7 +147,25 @@
 
 @media screen and (max-width: 768px) {
   .header {
-    /* Adjust the background size for smaller screens */
-    background-size: contain; /* You can use 'contain' or any other size that fits your design */
+    background-size: contain; 
   }
+}
+
+.sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.social-media a {
+  color: black;
 }
