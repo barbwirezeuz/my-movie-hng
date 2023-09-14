@@ -27,7 +27,7 @@ This project uses The Movie Database (TMDb) API. You'll need to sign up on https
 npm start
 
 6. Access the Application:
-Open your web browser and visit https://nsg3k705-3004.uks1.devtunnels.ms/ to access the App
+Open your web browser and visit https://hng-movie.onrender.com to access the App
 
 
 **Features**

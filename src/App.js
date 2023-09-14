@@ -78,7 +78,6 @@ function App() {
             <button>&#9776;</button>
           </div> */}
         </header>
-
         <div className="main-content">
           {error && <p>{error}</p>}
           <Routes>
