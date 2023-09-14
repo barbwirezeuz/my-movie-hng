@@ -61,22 +61,22 @@ function App() {
     <Router>
       <div className="App">
         {/* Header */}
-        <header className="header">
-          <div className="title">MovieBox</div>
-          <div className="search-bar">
+        <header className="header" >
+          {/* <div className="title">MovieBox</div> */}
+          {/* <div className="search-bar">
             <input
               type="text"
               placeholder="What do you want to watch ?"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
-          </div>
-          <div className="sign-in-link">
+          </div> */}
+          {/* <div className="sign-in-link">
             <Link to="/">Sign In</Link>
           </div>
           <div className="menu-button">
             <button>&#9776;</button>
-          </div>
+          </div> */}
         </header>
 
         <div className="main-content">
